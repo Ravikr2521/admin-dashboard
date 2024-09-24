@@ -1,0 +1,29 @@
+
+.submenu {
+  transition: max-height 0.3s ease-in-out;
+  position: relative;
+}
+
+.sidebar .sidebar-menu>ul li .submenu>ul li a:before {
+  position: absolute;
+  content: "";
+  background-color: #898989 ;
+  width: .5px;
+  height: 8px;
+  left: 4px;
+  top: 3px;
+}
+
+.sidebar .sidebar-menu>ul li .submenu>ul li a:after {
+  position: absolute;
+  content: "";
+  background-color: #898989;
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  left: 0px;
+  top: 16px;
+}
+.css-11w94w9-MuiTableCell-root{
+  font-family: "Josefin Sans", sans-serif !important;
+}
